@@ -1,0 +1,99 @@
+  506  ssh-keygen -C "lenovo2008"
+  511  vi id_rsa.pub  #copy this to github->user->setting->ssh-key
+  512  ssh -T git@github.com #test
+  513  git config --global user.name "enomlap"
+  514  git config --global user.email "tt7fans@163.com"
+  518  git init MyTest
+  520  cd MyTest/
+  522  vi README
+  523  vi sample.c
+  524  git add README 
+  525  git add sample.c 
+  526  git commit -m "first message"
+  527  git remote -v
+  528  git remote add origin https://github.com/enomlap/MyTest.git
+  529  git remote -v
+  530  git push origin master
+  531  git push origin master
+  532  git mv README README.md
+  533  git status
+  534  git commit -m 
+  535  git commit -m "Change README to README.md
+"
+  536  git push origin master
+  537  git push origin master
+  538  ls
+  539  ls -a
+  540  cd .git/
+  541  ls
+  542  cd ..
+  543  git remote add origin git@github.com:enomlap/MyTest.git
+  544  git remote delete origin git@github.com:enomlap/MyTest.git
+  545  git remote delete remove git@github.com:enomlap/MyTest.git
+  546  git remote remove origin git@github.com:enomlap/MyTest.git
+  547  git remote remove  git@github.com:enomlap/MyTest.git
+  548  history | grep add
+  549  git remote remove https://github.com/enomlap/MyTest.git
+  550  git remote remove origin https://github.com/enomlap/MyTest.git
+  551  git remote remove origin https://github.com/enomlap/MyTest.git
+  552  cd .git/
+  553  ls
+  554  vi config 
+  555  git update
+  556  cd ..
+  557  vi README.md 
+  558  git commit -m "Change to ssh url."
+  559  git push origin master
+  560  vi README.md 
+  561  git remote add origin
+  562  git push -y origin master
+  563  git push -u origin master
+  564  git status
+  565  git add README.md 
+  566  git push -u origin master
+  567  git status
+  568  git log
+  569  git add README.md 
+  570  git commit -m "Change url to ssh."
+  571  git log
+  572  git status
+  573  vi README.md 
+  574  git diff README.md 
+  575  git add README.md 
+  576  git status
+  577  git commit -m "Change to ssh222222222."
+  578  git status
+  579  git push origin master
+  580  vi README.md 
+  581  git commit -m "hahaha"
+  582  git push origin master
+  583  git add README.md 
+  584  git push origin master
+  585  git status
+  586  git add README.md 
+  587  git push origin master
+  588  git status
+  589  git diff README.md 
+  590  git commit -m "hahaha"
+  591  git push origin master
+  592  vi README.md 
+  593  git diff README.md 
+  594  git commit -m "Add time"
+  595  git push origin master
+  596  git status
+  597  git add README.md 
+  598  git status
+  599  git push origin master
+  600  git status
+  601  git commit "add time."
+  602  git commit -m "add time."
+  603  git push origin master
+  604  vi README.md 
+  605  git add README.md 
+  606  git commit -m "Update time."
+  607  git push origin master
+  608  vi README.md 
+  609  git add README.md 
+  610  git commit -m "Update method"
+  611  git push origin master
+  612  history > myinstall.txt
